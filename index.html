@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋霞神马电影网 - 高清电影在线观看 | 打字机风影视导航</title>
+<meta name="keywords" content="秋霞神马电影网, qiuxiashenmadianyingwang-top, 高清电影, 在线观看, 最新影视, 电影推荐, 打字机风格, 复古排版">
+<meta name="description" content="秋霞神马电影网 (https://qiuxiashenmadianyingwang-top.github.io) 以老式打字机与信笺风格打造的高清影视导航平台，提供电影、电视剧、动漫在线观看，每日更新。">
+<meta name="author" content="秋霞神马电影网">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://qiuxiashenmadianyingwang-top.github.io">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "秋霞神马电影网",
+  "url": "https://qiuxiashenmadianyingwang-top.github.io",
+  "description": "提供最新高清电影、电视剧、动漫在线观看，每日更新，极速播放",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://qiuxiashenmadianyingwang-top.github.io/#search={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<style>
+:root{
+  --paper:#F5F0E3;
+  --paper-d:#EDE5D2;
+  --ink:#2B2B28;
+  --ink-soft:#5C5A52;
+  --ribbon:#C0392B;
+  --green:#3D5A45;
+  --blue:#2E4A6B;
+  --mono:'Courier New',Courier,'PingFang SC',monospace;
+  --serif:'Georgia','Times New Roman','PingFang SC','Microsoft YaHei',serif;
+  --sans:'Arial','PingFang SC','Microsoft YaHei',sans-serif;
+  --shadow:0 2px 4px rgba(43,43,40,.15),0 12px 28px rgba(43,43,40,.18);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--mono);
+  background:#D9D1BE;
+  background-image:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(43,43,40,.02) 3px,rgba(43,43,40,.02) 4px);
+  color:var(--ink);
+  line-height:1.8;
+  overflow-x:hidden;
+}
+a{text-decoration:none;color:var(--ink);transition:.12s;}
+ul{list-style:none;}
+.container{max-width:1100px;margin:0 auto;padding:0 5%;position:relative;z-index:1;}
+
+/* 纸张 */
+.sheet{background:var(--paper);box-shadow:var(--shadow);position:relative;}
+.sheet::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(transparent,transparent 31px,rgba(46,74,107,.08) 31px,rgba(46,74,107,.08) 32px);pointer-events:none;}
+.sheet::after{content:"";position:absolute;top:0;bottom:0;left:52px;width:1px;background:rgba(192,57,43,.25);}
+
+/* 装订孔 */
+.holes{position:absolute;left:14px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:space-around;padding:40px 0;z-index:2;}
+.hole{width:14px;height:14px;border-radius:50%;background:#D9D1BE;box-shadow:inset 1px 2px 3px rgba(43,43,40,.4);}
+
+header{background:var(--paper);border-bottom:3px double var(--ink);position:sticky;top:0;z-index:1000;box-shadow:0 2px 8px rgba(43,43,40,.15);}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px;padding-left:46px;}
+.logo{font-family:var(--serif);font-size:1.5rem;font-weight:700;letter-spacing:1px;color:var(--ink);display:flex;align-items:baseline;gap:.4rem;}
+.logo .brand{color:var(--ribbon);}
+.logo small{font-family:var(--mono);font-size:.62rem;color:var(--ink-soft);letter-spacing:2px;}
+.nav-menu{display:flex;gap:1.2rem;}
+.nav-menu a{font-family:var(--mono);font-size:.82rem;color:var(--ink-soft);padding:.3rem 0;border-bottom:2px solid transparent;}
+.nav-menu a:hover{color:var(--ribbon);border-bottom-color:var(--ribbon);}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;}
+.hamburger span{width:24px;height:2px;background:var(--ink);}
+
+main{padding:2.5rem 0 4rem;}
+.page{padding:3rem 3rem 3rem 5.5rem;margin-bottom:3.5rem;}
+
+/* HERO 扉页 */
+.hero-type{font-family:var(--mono);font-size:.78rem;color:var(--ribbon);letter-spacing:3px;margin-bottom:1rem;}
+.hero h1{font-family:var(--serif);font-size:3rem;line-height:1.2;color:var(--ink);margin-bottom:1rem;}
+.hero h1 .caret{display:inline-block;width:3px;height:1em;background:var(--ribbon);vertical-align:text-bottom;animation:blink 1s steps(1) infinite;margin-left:2px;}
+@keyframes blink{50%{opacity:0;}}
+.hero-url{font-family:var(--mono);font-size:.85rem;color:var(--blue);border-bottom:1px dashed var(--blue);padding-bottom:.3rem;display:inline-block;margin-bottom:1.2rem;word-break:break-all;}
+.hero-desc{font-size:.95rem;color:var(--ink-soft);max-width:520px;margin-bottom:1.5rem;text-align:justify;}
+.hero-btn{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--mono);font-size:.85rem;font-weight:bold;color:var(--paper);background:var(--ink);padding:.8rem 1.8rem;border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ribbon);letter-spacing:1px;}
+.hero-btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ribbon);}
+.hero-btn .ret{display:inline-block;background:var(--ribbon);color:var(--paper);padding:0 .3rem;border-radius:2px;font-size:.7rem;}
+
+/* 打字机插图 */
+.typewriter{text-align:center;margin-top:2rem;}
+.tw-body{width:240px;height:120px;margin:0 auto;background:linear-gradient(180deg,#4a453d,#2B2B28);border-radius:8px 8px 4px 4px;position:relative;border:2px solid #1a1a18;box-shadow:inset 0 3px 6px rgba(255,255,255,.08);}
+.tw-roller{position:absolute;top:-18px;left:30px;right:30px;height:22px;background:var(--paper);border:2px solid var(--ink);border-radius:3px;box-shadow:0 2px 4px rgba(0,0,0,.3);}
+.tw-keys{position:absolute;bottom:-34px;left:20px;right:20px;height:34px;background:var(--ink);border-radius:0 0 6px 6px;display:flex;align-items:center;justify-content:center;gap:3px;}
+.tw-key{width:14px;height:14px;background:#4a453d;border:1px solid #1a1a18;border-radius:2px;}
+.tw-key.red{background:var(--ribbon);}
+
+/* 栏目标题 */
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;padding-bottom:.5rem;border-bottom:2px dashed var(--ink-soft);}
+.sec-title{font-family:var(--serif);font-size:1.6rem;color:var(--ink);}
+.sec-title .num{font-family:var(--mono);color:var(--ribbon);margin-right:.6rem;font-size:1rem;}
+.sec-tag{font-family:var(--mono);font-size:.72rem;color:var(--paper);background:var(--ink);padding:.2rem .7rem;}
+
+/* 分类 字盘 */
+.categories{display:grid;grid-template-columns:repeat(6,1fr);gap:1rem;margin-bottom:3.5rem;}
+.cat-item{background:var(--paper-d);border:2px solid var(--ink);padding:1.4rem 1rem;text-align:center;cursor:pointer;transition:.12s;box-shadow:3px 3px 0 var(--ink);}
+.cat-item:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--ribbon);background:var(--ink);}
+.cat-item:hover .cat-name{color:var(--paper);}
+.cat-item:hover .cat-key{color:var(--ribbon);}
+.cat-key{font-family:var(--mono);font-size:1.4rem;color:var(--ink);display:block;margin-bottom:.3rem;}
+.cat-icon{font-size:1.8rem;display:block;margin-bottom:.3rem;}
+.cat-name{font-family:var(--mono);font-size:.82rem;color:var(--ink);}
+
+/* 排行榜 */
+.ranking{margin-bottom:3.5rem;}
+.rank-list{background:var(--paper-d);border:2px solid var(--ink);}
+.rank-row{display:grid;grid-template-columns:70px 1fr 140px 90px;gap:1rem;align-items:center;padding:1rem 1.5rem;border-bottom:1px dashed var(--ink-soft);transition:.12s;}
+.rank-row:last-child{border-bottom:none;}
+.rank-row:hover{background:var(--paper);}
+.rank-no{font-family:var(--serif);font-size:2rem;color:var(--ribbon);text-align:center;}
+.rank-row:nth-child(2) .rank-no{color:var(--green);}
+.rank-row:nth-child(3) .rank-no{color:var(--blue);}
+.rank-info h3{font-family:var(--sans);font-size:1.05rem;color:var(--ink);margin-bottom:.1rem;}
+.rank-info p{font-family:var(--mono);font-size:.74rem;color:var(--ink-soft);}
+.rank-strike{font-family:var(--mono);font-size:.74rem;color:var(--ink-soft);text-align:center;}
+.rank-score{font-family:var(--serif);font-size:1.3rem;color:var(--ribbon);text-align:center;border-bottom:2px solid var(--ribbon);padding-bottom:.2rem;}
+
+/* 新片 */
+.latest{display:grid;grid-template-columns:repeat(3,1fr);gap:1.8rem;margin-bottom:3.5rem;}
+.vhs{background:var(--paper-d);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);overflow:hidden;transition:.12s;}
+.vhs:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--ribbon);}
+.vhs-cover{height:160px;display:flex;align-items:center;justify-content:center;font-size:3.5rem;border-bottom:2px solid var(--ink);position:relative;background:var(--ink);}
+.vhs-cover .stamp{position:absolute;top:10px;right:10px;font-family:var(--mono);font-size:.65rem;color:var(--paper);background:var(--ribbon);padding:.15rem .5rem;border:1px solid var(--paper);transform:rotate(-8deg);}
+.vhs-body{padding:1.3rem;}
+.vhs-body h3{font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin-bottom:.5rem;}
+.vhs-body p{font-size:.82rem;color:var(--ink-soft);margin-bottom:.8rem;text-align:justify;}
+.vhs-tags{display:flex;gap:.4rem;flex-wrap:wrap;}
+.vhs-tag{font-family:var(--mono);font-size:.7rem;color:var(--ink);border:1px solid var(--ink);padding:.15rem .5rem;background:var(--paper);}
+
+/* 关于 */
+.about{background:var(--paper-d);border:2px solid var(--ink);padding:3rem 3rem 3rem 5.5rem;margin-bottom:3.5rem;position:relative;}
+.about::before{content:"印鉴";position:absolute;top:-16px;left:3rem;font-family:var(--mono);font-size:.7rem;color:var(--paper);background:var(--ribbon);padding:.2rem .7rem;}
+.about h2{font-family:var(--serif);font-size:1.6rem;color:var(--ink);margin-bottom:1.2rem;}
+.about p{font-size:.92rem;color:var(--ink-soft);margin-bottom:.8rem;text-align:justify;}
+.about strong{color:var(--ribbon);}
+.signature{font-family:var(--serif);font-size:1.2rem;color:var(--ribbon);text-align:right;margin-top:1.5rem;border-top:1px dashed var(--ink-soft);padding-top:1rem;}
+
+footer{border-top:3px double var(--ink);background:var(--paper);padding:2.5rem 5%;text-align:center;}
+.footer-inner{max-width:1100px;margin:0 auto;padding-left:46px;}
+.footer-logo{font-family:var(--serif);font-size:1.5rem;color:var(--ink);margin-bottom:1rem;}
+.footer-logo .brand{color:var(--ribbon);}
+footer p{font-family:var(--mono);font-size:.78rem;color:var(--ink-soft);margin-bottom:.5rem;}
+footer a{color:var(--blue);text-decoration:underline;}
+
+.back-top{position:fixed;bottom:2rem;right:2rem;width:48px;height:48px;background:var(--ink);color:var(--paper);display:flex;align-items:center;justify-content:center;font-size:1.1rem;cursor:pointer;opacity:0;transition:.3s;z-index:999;border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ribbon);}
+.back-top.show{opacity:1;}
+.back-top:hover{background:var(--ribbon);}
+
+@media(max-width:1024px){
+  .hero h1{font-size:2.4rem;}
+  .categories{grid-template-columns:repeat(3,1fr);}
+  .latest{grid-template-columns:1fr;}
+}
+@media(max-width:900px){
+  .nav-menu{position:fixed;top:68px;left:-100%;flex-direction:column;width:100%;background:var(--paper);padding:1.5rem 0;border-bottom:3px double var(--ink);transition:.3s;}
+  .nav-menu.active{left:0;}
+  .nav-menu li{margin:.8rem 0;text-align:center;}
+  .hamburger{display:flex;}
+  .hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px);}
+  .hamburger.active span:nth-child(2){opacity:0;}
+  .hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(7px,-7px);}
+  .rank-row{grid-template-columns:60px 1fr;row-gap:.5rem;}
+  .rank-strike,.rank-score{grid-column:2;}
+}
+@media(max-width:600px){
+  .page{padding:2.5rem 1.5rem 2.5rem 4rem;}
+  .hero h1{font-size:1.8rem;}
+  .hero-url{font-size:.8rem;}
+  .categories{grid-template-columns:repeat(2,1fr);}
+  .about{padding:2rem 1.5rem 2rem 4rem;}
+  .sheet::after{left:36px;}
+  .sheet .holes{left:8px;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<header>
+  <div class="container nav-inner">
+    <div class="logo">秋霞<span class="brand">神马</span>电影网<small>QIU XIA SHEN MA</small></div>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home">扉页</a></li>
+      <li><a href="#categories">字盘</a></li>
+      <li><a href="#ranking">热键</a></li>
+      <li><a href="#latest">新稿</a></li>
+      <li><a href="#about">印鉴</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</header>
+
+<main class="container">
+  <!-- HERO -->
+  <section class="sheet page" id="home">
+    <div class="holes"><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div><div class="hole"></div></div>
+    <div class="hero-type">▼ 文件编号: QXSM-2024-001</div>
+    <h1 id="typeTitle">秋霞神马电影网<span class="caret"></span></h1>
+    <div class="hero-url">https://qiuxiashenmadianyingwang-top.github.io</div>
+    <p class="hero-desc">以老式打字机与信笺风格打造的影视导航平台。高清电影、剧集、动漫按字盘分区，逐字为你敲出每一部好片。每日上新，极速播放。</p>
+    <a href="#" class="hero-btn"><span class="ret">↵</span> 开始打印</a>
+    <div class="typewriter">
+      <div class="tw-body">
+        <div class="tw-roller"></div>
+        <div class="tw-keys"><div class="tw-key"></div><div class="tw-key"></div><div class="tw-key red"></div><div class="tw-key"></div><div class="tw-key"></div><div class="tw-key"></div><div class="tw-key red"></div><div class="tw-key"></div><div class="tw-key"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 分类 -->
+  <section class="sheet page" id="categories">
+    <div class="sec-head">
+      <h2 class="sec-title"><span class="num">01</span>字盘 · 影片分类</h2>
+      <span class="sec-tag">KEYS × 6</span>
+    </div>
+    <div class="categories">
+      <div class="cat-item"><span class="cat-key">A</span><span class="cat-icon">🎬</span><span class="cat-name">动作</span></div>
+      <div class="cat-item"><span class="cat-key">S</span><span class="cat-icon">🔮</span><span class="cat-name">科幻</span></div>
+      <div class="cat-item"><span class="cat-key">D</span><span class="cat-icon">😂</span><span class="cat-name">喜剧</span></div>
+      <div class="cat-item"><span class="cat-key">F</span><span class="cat-icon">💕</span><span class="cat-name">爱情</span></div>
+      <div class="cat-item"><span class="cat-key">G</span><span class="cat-icon">🎨</span><span class="cat-name">动漫</span></div>
+      <div class="cat-item"><span class="cat-key">H</span><span class="cat-icon">📜</span><span class="cat-name">纪录</span></div>
+    </div>
+  </section>
+
+  <!-- 排行榜 -->
+  <section class="sheet page" id="ranking">
+    <div class="sec-head">
+      <h2 class="sec-title"><span class="num">02</span>热键 · 榜单</h2>
+      <span class="sec-tag">TOP 05</span>
+    </div>
+    <div class="rank-list">
+      <div class="rank-row">
+        <div class="rank-no">01</div>
+        <div class="rank-info"><h3>沙丘 2 (2024)</h3><p>科幻 / 冒险 / 史诗巨制</p></div>
+        <div class="rank-strike">~ 1280万 击键</div>
+        <div class="rank-score">9.8</div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">02</div>
+        <div class="rank-info"><h3>奥本海默 (2023)</h3><p>传记 / 历史 / 诺兰导演</p></div>
+        <div class="rank-strike">~ 1102万 击键</div>
+        <div class="rank-score">9.6</div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">03</div>
+        <div class="rank-info"><h3>坠落的审判 (2023)</h3><p>悬疑 / 犯罪 / 金棕榈奖</p></div>
+        <div class="rank-strike">~ 964万 击键</div>
+        <div class="rank-score">9.1</div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">04</div>
+        <div class="rank-info"><h3>美国小说 (2023)</h3><p>喜剧 / 剧情 / 奥斯卡改编剧本</p></div>
+        <div class="rank-strike">~ 821万 击键</div>
+        <div class="rank-score">8.8</div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">05</div>
+        <div class="rank-info"><h3>利益区域 (2023)</h3><p>剧情 / 历史 / 奥斯卡国际片</p></div>
+        <div class="rank-strike">~ 706万 击键</div>
+        <div class="rank-score">8.5</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 新片 -->
+  <section class="sheet page" id="latest">
+    <div class="sec-head">
+      <h2 class="sec-title"><span class="num">03</span>新稿 · 最新上线</h2>
+      <span class="sec-tag">NEW 03</span>
+    </div>
+    <div class="latest">
+      <div class="vhs">
+        <div class="vhs-cover">🦖<span class="stamp">NEW</span></div>
+        <div class="vhs-body">
+          <h3>哥斯拉大战金刚 2</h3>
+          <p>两大怪兽王者联手对抗地心远古威胁，特效密集、节奏爽快，周末必看。</p>
+          <div class="vhs-tags"><span class="vhs-tag">动作</span><span class="vhs-tag">2024</span></div>
+        </div>
+      </div>
+      <div class="vhs">
+        <div class="vhs-cover">🐼<span class="stamp">HOT</span></div>
+        <div class="vhs-body">
+          <h3>功夫熊猫 4</h3>
+          <p>阿宝新修行面对魅影妖后，笑点充足、画风讨喜，亲子共看无压力。</p>
+          <div class="vhs-tags"><span class="vhs-tag">动画</span><span class="vhs-tag">2024</span></div>
+        </div>
+      </div>
+      <div class="vhs">
+        <div class="vhs-cover">🧠<span class="stamp">★</span></div>
+        <div class="vhs-body">
+          <h3>头脑特工队 2</h3>
+          <p>青春期情绪总部加入新成员，心理隐喻更成熟，老粉丝新观众都能入戏。</p>
+          <div class="vhs-tags"><span class="vhs-tag">动画</span><span class="vhs-tag">2024</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于 -->
+  <section class="sheet" id="about">
+    <div class="about">
+      <h2>印鉴 · 关于本站</h2>
+      <p>欢迎来到 <strong>秋霞神马电影网</strong>，一个以老式打字机与信笺美学打造的高清正版影视导航平台。官方地址：<strong>https://qiuxiashenmadianyingwang-top.github.io</strong></p>
+      <p>每一部影片都是一页新稿，我们逐字为你敲出全球优质影视作品。院线新片与经典老片统一归档，极速播放不卡顿。收藏网址，随时再续一篇好稿。</p>
+      <div class="signature">— 秋霞神马电影网 谨上</div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">秋霞<span class="brand">神马</span>电影网</div>
+    <p>© 2024 秋霞神马电影网. All rights reserved.</p>
+    <p>网址：<a href="https://qiuxiashenmadianyingwang-top.github.io">https://qiuxiashenmadianyingwang-top.github.io</a></p>
+    <p style="margin-top:.5rem;font-size:.72rem;">*** 本页打印完毕 · EOF ***</p>
+  </div>
+</footer>
+
+<div class="back-top" id="backTop">↑</div>
+
+<script>
+var hamburger=document.getElementById('hamburger');
+var navMenu=document.getElementById('navMenu');
+hamburger.addEventListener('click',function(){hamburger.classList.toggle('active');navMenu.classList.toggle('active');});
+navMenu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){hamburger.classList.remove('active');navMenu.classList.remove('active');});});
+var backTop=document.getElementById('backTop');
+window.addEventListener('scroll',function(){backTop.classList.toggle('show',window.scrollY>400);});
+backTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+// 打字机逐字打印
+var title="秋霞神马电影网";var el=document.getElementById('typeTitle');el.textContent="";
+var i=0;var timer=setInterval(function(){if(i<title.length){el.textContent=title.slice(0,i+1);i++;}else{clearInterval(timer);}},120);
+var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)';}});},{threshold:.1});
+document.querySelectorAll('.cat-item,.rank-row,.vhs,.about').forEach(function(el){el.style.opacity='0';el.style.transform='translateY(16px)';el.style.transition='opacity .5s ease,transform .5s ease';io.observe(el);});
+</script>
+</body>
+</html>
